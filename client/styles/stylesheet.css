@@ -4,7 +4,7 @@
 
     .gameContainer {
         background: white;
-        width: 65%;
+        width: 64%;
         height: 80%;
         border-radius: 6px;
         float: right;
@@ -17,7 +17,7 @@
 
     .chatContainer {
         background: white;
-        width: 25%;
+        width: 24%;
         height: 80%;
         border-radius: 6px;
         float: left;
