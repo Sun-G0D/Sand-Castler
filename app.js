@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-
+const port = process.env.PORT || 3000
 var server = require('http').createServer(app);
 
 app.get('/',function(req, res) {
@@ -38,4 +38,4 @@ io.sockets.on('connection', function(socket){
 	
 });
 
-server.listen(4141);
+server.listen(port);
